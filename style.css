@@ -1,0 +1,46 @@
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #92cfe6; */
+}
+.follow>li>a{
+    /* list-style-type: none; */
+    text-decoration: none;
+    color: rgb(235, 73, 73);
+}
+.about>p{
+text-align: justify;
+}
+.mainbody>p{
+    text-align: center;
+}
+.con{
+    border: 5px solid red;
+}
+body{
+    width: 100vw;
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire screen */
+    z-index: -1; /* Places the video behind other content */
+  }
+  .navbar-toggler {
+    float: right;
+    
+}
+
+.collapse ul li {
+    padding: 1px;
+}
+.navbar-custom {
+    padding: 10px;
+    background-color: rgba(142, 238, 159,1); /* Optional: Add background color */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
